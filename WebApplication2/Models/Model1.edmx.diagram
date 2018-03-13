@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8bd8220bb0e744d2a32c42a10b5a6e9d" Name="Diagram1">
+        <EntityTypeShape EntityType="WebApplication2.Content.Model1Model.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebApplication2.Content.Model1Model.Board" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebApplication2.Content.Model1Model.Message" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebApplication2.Content.Model1Model.Puzzle" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebApplication2.Content.Model1Model.User" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="WebApplication2.Content.Model1Model.FK_dbo_Boards_dbo_Users_User_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="WebApplication2.Content.Model1Model.FK_dbo_Messages_dbo_Users_Receiver_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="WebApplication2.Content.Model1Model.FK_dbo_Puzzles_dbo_Users_CreatedBy_Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
